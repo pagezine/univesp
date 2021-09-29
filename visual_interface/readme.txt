@@ -9,6 +9,7 @@ utilizar ferramentas:
 
     Streamlit (https://streamlit.io/)
     Heroku ( https://www.heroku.com/python)
+<<<<<<< HEAD
 
 - Vamos começar:
 1. Instalando a biblioteca streamlit, acesse o terminal e digite:
@@ -18,3 +19,5 @@ utilizar ferramentas:
    - será aberto no browser como http://localhost:8501
 
 
+=======
+>>>>>>> origin/main
