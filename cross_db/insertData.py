@@ -25,6 +25,7 @@ def insertSpec():
     sigla_unid = str(input("Qual é a sigla da unidade?: "))
     especialid = str(input("Qual é a especialidade?: "))
     cidade_unid = str(input("Qual é a cidade da unidade?: "))
+    ###
 
     conn.execute('''
             INSERT INTO especialidades (tipo_atend, sigla, espec_med, cidade)
@@ -33,7 +34,7 @@ def insertSpec():
                 ?, ?, ?, ?
             );
         ''', (ch_atend, sigla_unid, especialid, cidade_unid))
-    ###
+    
 
     conn.commit()
     conn.close()
