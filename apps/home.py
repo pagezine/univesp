@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
 
-
 def app():
   #  st.title('SAMU - Controle de remoções v0.10')
 
