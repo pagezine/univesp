@@ -1,8 +1,9 @@
+# import your app modules here
 import streamlit as st
 from PIL import Image
-
+from apps import home, data_stats, agendamentos, especialidades, pacientes, unidades, sandbox
 from multiapp import MultiApp
-from apps import home, data_stats, agendamentos, especialidades, pacientes, unidades,sandbox  # import your app modules here
+
 #from apps import home, data_stats, agendamentos
 
 app = MultiApp()
@@ -19,10 +20,6 @@ app.add_app("SandBox", sandbox.app)
 # Roda principal
 app.run()
 # -- parar aqui
-
-
-
-
 
 
 #PAGES = {

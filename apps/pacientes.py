@@ -8,7 +8,6 @@ def app():
   st.sidebar.image(image, caption='PACIENTES', use_column_width=True)
 
 
-
   # Utilizaçõa de colunas
 
   # Grafico do Sexo dos Pacientes
